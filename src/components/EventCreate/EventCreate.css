@@ -1,0 +1,106 @@
+.event-create{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* height: 500px; */
+    /* border: 2px solid black; */
+    background-color: aqua;
+    padding: 10px;
+}
+.input-container{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.event-input{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        /* background-color: pink; */
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+}
+.row{
+     /* background-color: red; */
+     width: 48%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+}
+label{
+    font-size: 14px;
+    font-weight: '500';
+    font-size: medium;
+}
+/* input , select{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.input, select {
+    width: 100%;
+    color: black;
+    /* background-color: yellow; */
+    margin-top: 10px;
+}
+.input::placeholder{
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500px;
+}
+
+.description{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    
+    
+}
+.description label{
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    font-weight: '500';
+}
+.textarea{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.textarea::placeholder{
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500px;
+}
+ 
+.save-btn{
+    /* background-color: var(--btn-color-primary); */
+    background-color:#a0db8e;
+    width:15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 15px;
+    /* color:black; */
+    font-weight: 800;
+    border-radius: 10px;
+   
+}
+.save-btn:hover{
+    background-color: #5a1d75;
+    color:white;
+}
